@@ -10,7 +10,7 @@ function init() {
   /**
   * Focus on selected filter if page URL contains a query string */
   function focusSelectedFilter() {
-    // Check window location if applicable    
+    // Check for search query if applicable    
     // if (window.location.search) {
       const selectedFilter = document.querySelector('main .search-link--selected');
       selectedFilter?.focus();     
